@@ -10,14 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@radix-ui/react-icons": "^1.3.0",
-    "@radix-ui/react-radio-group": "^1.1.3",
-    "@radix-ui/themes": "^2.0.3",
+    "@radix-ui/colors": "^3.0.0",
     "@stylexjs/stylex": "^0.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@stylexjs/eslint-plugin": "^0.4.1",
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
     "@typescript-eslint/eslint-plugin": "^6.14.0",
@@ -27,6 +26,8 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "typescript": "^5.2.2",
-    "vite": "^5.0.8"
+    "vite": "^5.0.8",
+    "vite-plugin-stylex": "^0.4.1",
+    "vite-plugin-stylex-dev": "^0.2.3"
   }
 }
